@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.getbase.floatingactionbutton.FloatingActionsMenu
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="64dp"
+    android:layout_marginEnd="64dp"
+    android:layout_marginBottom="64dp"
+    android:layout_gravity="bottom|end"
+    fab:fab_addButtonColorNormal="@color/colorPrimary"
+    fab:fab_addButtonColorPressed="@color/colorPrimaryDark"
+    fab:fab_addButtonPlusIconColor="#ffffff"
+    fab:fab_addButtonSize="normal"
+    fab:fab_labelStyle="@style/menu_labels_style">
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/detailed_action_like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fab:fab_icon="@drawable/ic_coming_soon_white_24dp"
+        fab:fab_colorNormal="@color/fab_in_theater_normal"
+        fab:fab_colorPressed="@color/fab_in_theater_press"
+        fab:fab_title="正在热映" />
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/detailed_action_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fab:fab_colorNormal="@color/fab_coming_soon_normal"
+        fab:fab_icon="@drawable/ic_in_threater_white_24dp"
+        fab:fab_colorPressed="@color/fab_coming_soon_press"
+        fab:fab_title="即将上映" />
+
+</com.getbase.floatingactionbutton.FloatingActionsMenu>

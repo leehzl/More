@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.getbase.floatingactionbutton.FloatingActionsMenu
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="64dp"
+    android:layout_marginEnd="64dp"
+    android:layout_marginBottom="64dp"
+    android:layout_gravity="bottom|end"
+    fab:fab_addButtonColorNormal="@color/colorPrimary"
+    fab:fab_addButtonColorPressed="@color/colorPrimaryDark"
+    fab:fab_addButtonPlusIconColor="#ffffff"
+    fab:fab_addButtonSize="normal"
+    fab:fab_labelStyle="@style/menu_labels_style">
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/envnt_music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fab:fab_icon="@drawable/ic_music_white_24dp"
+        fab:fab_colorNormal="@color/fab_music_normal"
+        fab:fab_colorPressed="@color/fab_music_press"
+        fab:fab_title="@string/music" />
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/event_stage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fab:fab_colorNormal="@color/fab_stage_normal"
+        fab:fab_icon="@drawable/ic_seat_white_24dp"
+        fab:fab_colorPressed="@color/fab_stage_press"
+        fab:fab_title="@string/stage" />
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/event_broaden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fab:fab_colorNormal="@color/fab_broaden_normal"
+        fab:fab_icon="@drawable/ic_visibility_white_24dp"
+        fab:fab_colorPressed="@color/fab_broaden_press"
+        fab:fab_title="@string/broaden" />
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/event_party"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fab:fab_colorNormal="@color/fab_party_normal"
+        fab:fab_icon="@drawable/ic_group_white_24dp"
+        fab:fab_colorPressed="@color/fab_party_press"
+        fab:fab_title="@string/party" />
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/event_outdoors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fab:fab_colorNormal="@color/fab_outdoors_normal"
+        fab:fab_icon="@drawable/ic_outdoors_white_24dp"
+        fab:fab_colorPressed="@color/fab_outdoors_press"
+        fab:fab_title="@string/outdoors" />
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/event_others"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fab:fab_colorNormal="@color/fab_others_normal"
+        fab:fab_icon="@drawable/ic_more_vert_white_24dp"
+        fab:fab_colorPressed="@color/fab_others_press"
+        fab:fab_title="@string/others" />
+</com.getbase.floatingactionbutton.FloatingActionsMenu>

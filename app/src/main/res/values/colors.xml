@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    <color name="colorAccent">#009688</color>
+
+    <color name="textColorPrimary">#616161</color>
+    <color name="viewBackground">@android:color/white</color>
+
+    <color name="blue">#0099cc</color>
+
+
+    <!--默认模式-->
+    <color name="skin_theme">#009688</color>
+    <color name="skin_textColor">#616161</color>
+    <color name="skin_textColorDark">#89000000</color>
+    <color name="skin_background">#FFFFFF</color>
+    <color name="skin_fab">#047b6d</color>
+    <color name="skin_line">#cc898c8c</color>
+
+    <!--Toolbar字体颜色  -->
+    <color name="skin_toolbar_Text_Color">#DDFFFFFF</color>
+    <!--Toolbar-Menu字体颜色-->
+    <color name="skin_toolbar_Menu_Text_Color">#DD000000</color>
+    <!--Toolbar背景  -->
+    <color name="skin_topbar_background">#00796B</color>
+    <!--主页item背景色-->
+    <color name="skin_main_item_background">#FFFFFF</color>
+    <!--Navigation菜单背景颜色-->
+    <color name="skin_nav_menu_background">#ff006357</color>
+    <!--RecyclerList 的背景颜色-->
+    <color name="skin_list_background">#ffffff</color>
+    <!--RecyclerViewList 的Title字体颜色-->
+    <color name="skin_list_title">#fdfdfd</color>
+    <!--标题颜色-->
+    <color name="skin_title">#00796B</color>
+
+
+    <!--日间模式-->
+    <color name="skin_theme_day">#009688</color>
+    <color name="skin_textColor_day">#616161</color>
+    <color name="skin_textColorDark_day">#89000000</color>
+    <color name="skin_background_day">#FFFFFF</color>
+    <!--Toolbar字体颜色  -->
+    <color name="skin_toolbar_Text_Color_day">#DDFFFFFF</color>
+    <!--Toolbar-Menu字体颜色-->
+    <color name="skin_toolbar_Menu_Text_Color_day">#DD000000</color>
+    <!--Toolbar背景  -->
+    <color name="skin_topbar_background_day">#00796B</color>
+    <!--主页item背景色-->
+    <color name="skin_main_item_background_day">#FFFFFF</color>
+    <!--Navigation菜单背景颜色-->
+    <color name="skin_nav_menu_background_day">#ff006357</color>
+    <!--RecyclerList 的背景颜色-->
+    <color name="skin_list_background_day">#66ffffff</color>
+    <!--FloatingActionButton 颜色-->
+    <color name="skin_fab_day">#047b6d</color>
+    <!--Movie Detail最上面的颜色-->
+    <color name="skin_text_white_day">#edeaea</color>
+    <color name="skin_text_gray_day">#cacaca</color>
+    <!--分割线-->
+    <color name="skin_line_day">#cc898c8c</color>
+    <!--RecyclerViewList 的Title字体颜色-->
+    <color name="skin_list_title_day">#fdfdfd</color>
+    <!--标题颜色-->
+    <color name="skin_title_day">#00796B</color>
+
+
+    <!--夜间模式-->
+    <color name="skin_theme_night">#00332d</color>
+    <color name="skin_textColor_night">#89FFFFFF</color>
+    <color name="skin_textColorDark_night">#42FFFFFF</color>
+    <color name="skin_background_night">#FF424242</color>
+    <!--Toolbar字体颜色  -->
+    <color name="skin_toolbar_Text_Color_night">#DDFFFFFF</color>
+    <!--Toolbar-Menu字体颜色-->
+    <color name="skin_toolbar_Menu_Text_Color_night">#DD000000</color>
+    <!--Toolbar背景  -->
+    <color name="skin_topbar_background_night">#212121</color>
+    <!--主页item背景色-->
+    <color name="skin_main_item_background_night">#616161</color>
+    <!--Navigation菜单背景颜色-->
+    <color name="skin_nav_menu_background_night">#ff002520</color>
+    <!--RecyclerList 的背景颜色-->
+    <color name="skin_list_background_night">#313131</color>
+    <!--FloatingActionButton 颜色-->
+    <color name="skin_fab_night">#003d34</color>
+    <!--Movie Detail最上面的颜色-->
+    <color name="skin_text_white_night">#edeaea</color>
+    <color name="skin_text_gray_night">#cacaca</color>
+    <!--分割线-->
+    <color name="skin_line_night">#ccc5cbcc</color>
+    <!--RecyclerViewList 的Title字体颜色-->
+    <color name="skin_list_title_night">#afaeae</color>
+    <!--标题颜色-->
+    <color name="skin_title_night">#cfcfcf</color>
+
+
+
+    <!--不需要设置日间夜间模式的颜色-->
+    <color name="nav_menu_text_color">#DD009688</color>
+    <color name="star_color">#ddd4d404</color>
+
+
+    <!--FloatingActionsMenu所需的颜色-->
+    <color name="fab_menu_label_background">#dd202020</color>
+    <color name="fab_menu_label_text_color">#dadada</color>
+
+    <color name="fab_in_theater_normal">#FFb71533</color>
+    <color name="fab_in_theater_press">#FF8e051e</color>
+    <color name="fab_text_in_theater">#ccb71533</color>
+
+    <color name="fab_coming_soon_normal">#FF11299e</color>
+    <color name="fab_coming_soon_press">#FF0a1997</color>
+    <color name="fab_text_coming_soon">#cc11299e</color>
+
+    <color name="fab_music_normal">#9aab06</color>
+    <color name="fab_music_press">#808e03</color>
+    <color name="fab_stage_normal">#df2d2d</color>
+    <color name="fab_stage_press">#ab1c1c</color>
+    <color name="fab_broaden_normal">#3caf0b</color>
+    <color name="fab_broaden_press">#297c05</color>
+    <color name="fab_party_normal">#0c39a3</color>
+    <color name="fab_party_press">#0a2e83</color>
+    <color name="fab_outdoors_normal">#bc9111</color>
+    <color name="fab_outdoors_press">#86670b</color>
+    <color name="fab_others_normal">#494949</color>
+    <color name="fab_others_press">#262626</color>
+
+</resources>

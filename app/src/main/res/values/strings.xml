@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">More</string>
+    <string name="home">主页</string>
+    <string name="bookmarks">书签</string>
+    <string name="change_theme">换肤</string>
+    <string name="settings">设置</string>
+    <string name="myname"><![CDATA[Lily&Lee]]></string>
+    <string name="open_drawer">Open Navigation Drawer</string>
+    <string name="close_drawer">Close Navigation Drawer</string>
+    <string name="loading_more">加载更多...</string>
+    <string name="load_error">加载失败</string>
+    <string name="retry">请重试</string>
+    <string name="loadee_failed">加载失败</string>
+    <string name="douban_in_threater">正在上映</string>
+    <string name="douban_coming_soon">即将上映</string>
+    <string name="douban_movie_score">评分：</string>
+    <string name="movie_describe">电影简介</string>
+    <string name="movie_director">导演</string>
+    <string name="movie_casts">主演</string>
+    <string name="others">其他</string>
+    <string name="outdoors">户外</string>
+    <string name="party">聚会</string>
+    <string name="broaden">扩展</string>
+    <string name="stage">舞台</string>
+    <string name="music">音乐</string>
+    <string name="subcategory">类型</string>
+    <string name="address">地址</string>
+    <string name="time">时间</string>
+    <string name="favorite">热度</string>
+    <string name="ticket">票务</string>
+    <string name="describe">简介</string>
+    <string name="loading">正在加载...</string>
+    <string name="aboutSoftwareTitle">关于软件</string>
+    <string name="aboutSoftwareContent">&#8226;More是在github上的一个开源项目基础上进行改进，从2017年2月底到4月初，历时约一个半月完成。\n
+        &#8226;我们秉承艰苦朴素的精神，从设计到编码，到最后的调整都倾尽我们的每一份心血。\n
+        &#8226;这其中还存在许多不足的地方，若有好的建议或想法，随时欢迎联系我们。</string>
+    <string name="aboutTechTitle">关于技术</string>
+    <string name="aboutTechContent">在原有技术参考下，我们做出以下技术改进:\n
+        &#8226;网络访问：用OkHttp+Retrofit+RxJava流模式替换原有的Volley单例模式；\n
+        &#8226;夜间换肤：重写Factory的相关工作，采用函数反射机制使换肤不需要重启Activity，达到更好的用户体验；\n
+        &#8226;数据获取：采用html解析，获取Api中未提供的数据。</string>
+    <string name="aboutLowTitle">法律声明</string>
+    <string name="aboutLowContent">&#8226;More的初衷只是出于我们对Android技术的热忱，并不存在任何商业用途。\n
+        &#8226;其所使用的数据均来自知乎日报与豆瓣提供的Api，另豆瓣电影剧照与评论为抓取豆瓣电影网页数据。\n
+        &#8226;若我们的行为侵犯任何一方的权利，请及时联系我们，我们将迅速做出修改。</string>
+    <string name="contactUsTitle">联系我们</string>
+    <string name="email">1132860085@qq.com</string>
+    <string name="phnoe">13387522275</string>
+    <string name="about">关于</string>
+</resources>

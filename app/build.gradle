@@ -1,0 +1,65 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "com.lilynlee.zhihudailynews"
+        minSdkVersion 21
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    //appcompat兼容包
+    compile 'com.android.support:appcompat-v7:25.2.0'
+    //material design设计包
+    compile 'com.android.support:design:25.1.1'
+    //volley简化网络请求
+    compile 'com.android.volley:volley:1.0.0'
+    //recycler view控件
+    compile 'com.android.support:recyclerview-v7:25.1.1'
+    //preference screen 设置和关于页面的配置
+    compile 'com.android.support:preference-v14:25.1.1'
+    //card view 控件
+    compile 'com.android.support:cardview-v7:25.1.1'
+    //解析json数据
+    compile 'com.google.code.gson:gson:2.7'
+    //图片加载
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    //为了保持在低版本SDK中UI一致性，引入material data time picker库
+    compile 'com.wdullaer:materialdatetimepicker:2.5.0'
+    //实现在NavigationView中的原型图片
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+
+    /*rx-android-java*/
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
+    compile 'com.trello:rxlifecycle:1.0'
+    compile 'com.trello:rxlifecycle-components:1.0'
+    /*retrofit*/
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.0'
+    compile 'com.google.code.gson:gson:2.8.0'
+
+    /*FloatingActionMenu 豆瓣电影*/
+    compile 'com.getbase:floatingactionbutton:1.10.1'
+    compile 'com.squareup.retrofit2:converter-scalars:2.0.0'
+    /*html解析*/
+    compile 'org.jsoup:jsoup:1.9.2'
+
+    compile 'com.android.support:support-v4:25.2.0'
+    testCompile 'junit:junit:4.12'
+}
